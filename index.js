@@ -10,3 +10,7 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
    var newKittens = kittens.slice(0, kittens.length-1)
    return newKittens
  }
+ 
+ function prependKitten(name){
+   var newKittens = kittens.push(name)
+ }
