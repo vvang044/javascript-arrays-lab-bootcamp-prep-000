@@ -6,4 +6,6 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
    return newKittens
  }
  
- 
+ function removeLastKitten(){
+   var newKittens = kittens.
+ }
