@@ -33,3 +33,5 @@ function destructivelyRemoveLastKitten(){
 function destructivelyPrependKitten(name){
   kittens.unshift(name)
 }
+
+function 
