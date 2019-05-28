@@ -15,3 +15,8 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
    var newKittens = [name,...kittens]
    return newKittens
  }
+ 
+ function appendKitten(name){
+   var newKittens = [...kittens, name]
+   return newKittens
+ }
