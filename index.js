@@ -7,5 +7,6 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
  }
  
  function removeLastKitten(){
-   var newKittens = kittens.
+   var newKittens = kittens.shift()
+   return newKittens
  }
