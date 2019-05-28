@@ -20,3 +20,7 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
    var newKittens = [...kittens, name]
    return newKittens
  }
+ 
+ function destructivelyRemoveFirstKitten(){
+   return newKittens.pop()
+ }
