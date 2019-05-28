@@ -12,6 +12,6 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
  }
  
  function prependKitten(name){
-   var newKittens = kittens.push(name)
+   var newKittens = [name,...kittens]
    return newKittens
  }
