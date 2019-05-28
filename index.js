@@ -22,5 +22,5 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
  }
  
  function destructivelyRemoveFirstKitten(){
-   return Kittens.shift()
+    Kittens.shift()
  }
