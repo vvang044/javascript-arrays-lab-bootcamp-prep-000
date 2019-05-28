@@ -25,3 +25,7 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
+
+function destructivelyRemoveLastKitten(){
+  kittens.pop()
+}
